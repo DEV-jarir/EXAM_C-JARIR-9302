@@ -43,8 +43,7 @@ public:
         cout << "Student Name: " << name << endl;
         cout << "Marks: "<<endl;
         for (int i = 0; i < 5; i++) {
-            cout << subject_mark[i] << " ";
-            cout<<endl;
+            cout << subject_mark[i]<<endl;
         }
         cout << "Total Marks: " << total << endl;
         cout << "Percentage: " << percentage << "%" << endl;
