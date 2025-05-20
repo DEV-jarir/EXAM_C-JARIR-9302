@@ -1,11 +1,8 @@
 #include <iostream>
-#include <string>
 using namespace std;
-
-// Base class
 class Student {
 protected:
-    string names[5]; // Array to store 5 student names
+    string names[5]; 
 
 public:
     void setNames() {
